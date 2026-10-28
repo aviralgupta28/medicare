@@ -1,0 +1,212 @@
+{
+  "heart_disease": {
+    "Logistic Regression": {
+      "accuracy": 0.8689,
+      "precision": 0.8125,
+      "recall": 0.9286,
+      "f1_score": 0.8667,
+      "confusion_matrix": [
+        [
+          27,
+          6
+        ],
+        [
+          2,
+          26
+        ]
+      ],
+      "test_samples": 61
+    },
+    "Support Vector Machine": {
+      "accuracy": 0.8525,
+      "precision": 0.8065,
+      "recall": 0.8929,
+      "f1_score": 0.8475,
+      "confusion_matrix": [
+        [
+          27,
+          6
+        ],
+        [
+          3,
+          25
+        ]
+      ],
+      "test_samples": 61
+    },
+    "Random Forest": {
+      "accuracy": 0.8852,
+      "precision": 0.8387,
+      "recall": 0.9286,
+      "f1_score": 0.8814,
+      "confusion_matrix": [
+        [
+          28,
+          5
+        ],
+        [
+          2,
+          26
+        ]
+      ],
+      "test_samples": 61
+    },
+    "XGBoost": {
+      "accuracy": 0.8525,
+      "precision": 0.7879,
+      "recall": 0.9286,
+      "f1_score": 0.8525,
+      "confusion_matrix": [
+        [
+          26,
+          7
+        ],
+        [
+          2,
+          26
+        ]
+      ],
+      "test_samples": 61
+    }
+  },
+  "diabetes": {
+    "Logistic Regression": {
+      "accuracy": 0.7143,
+      "precision": 0.6087,
+      "recall": 0.5185,
+      "f1_score": 0.56,
+      "confusion_matrix": [
+        [
+          82,
+          18
+        ],
+        [
+          26,
+          28
+        ]
+      ],
+      "test_samples": 154
+    },
+    "Support Vector Machine": {
+      "accuracy": 0.7532,
+      "precision": 0.66,
+      "recall": 0.6111,
+      "f1_score": 0.6346,
+      "confusion_matrix": [
+        [
+          83,
+          17
+        ],
+        [
+          21,
+          33
+        ]
+      ],
+      "test_samples": 154
+    },
+    "Random Forest": {
+      "accuracy": 0.7597,
+      "precision": 0.6809,
+      "recall": 0.5926,
+      "f1_score": 0.6337,
+      "confusion_matrix": [
+        [
+          85,
+          15
+        ],
+        [
+          22,
+          32
+        ]
+      ],
+      "test_samples": 154
+    },
+    "XGBoost": {
+      "accuracy": 0.7403,
+      "precision": 0.64,
+      "recall": 0.5926,
+      "f1_score": 0.6154,
+      "confusion_matrix": [
+        [
+          82,
+          18
+        ],
+        [
+          22,
+          32
+        ]
+      ],
+      "test_samples": 154
+    }
+  },
+  "breast_cancer": {
+    "Logistic Regression": {
+      "accuracy": 0.9298,
+      "precision": 0.8864,
+      "recall": 0.9286,
+      "f1_score": 0.907,
+      "confusion_matrix": [
+        [
+          67,
+          5
+        ],
+        [
+          3,
+          39
+        ]
+      ],
+      "test_samples": 114
+    },
+    "Support Vector Machine": {
+      "accuracy": 0.9561,
+      "precision": 0.9744,
+      "recall": 0.9048,
+      "f1_score": 0.9383,
+      "confusion_matrix": [
+        [
+          71,
+          1
+        ],
+        [
+          4,
+          38
+        ]
+      ],
+      "test_samples": 114
+    },
+    "Random Forest": {
+      "accuracy": 0.9386,
+      "precision": 0.907,
+      "recall": 0.9286,
+      "f1_score": 0.9176,
+      "confusion_matrix": [
+        [
+          68,
+          4
+        ],
+        [
+          3,
+          39
+        ]
+      ],
+      "test_samples": 114
+    },
+    "XGBoost": {
+      "accuracy": 0.9561,
+      "precision": 0.9512,
+      "recall": 0.9286,
+      "f1_score": 0.9398,
+      "confusion_matrix": [
+        [
+          70,
+          2
+        ],
+        [
+          3,
+          39
+        ]
+      ],
+      "test_samples": 114
+    }
+  }
+}
